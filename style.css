@@ -1,0 +1,29 @@
+* {
+    background-color: #13102c;
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: #13102c;
+    padding: 0;
+    padding-top: 3px;
+}
+.navbar-padding {
+    background-color: #13102c; /* Set the color of the padding */
+}
+.btn-outline-success
+{
+    background: linear-gradient(90deg, hsla(347, 89%, 61%, 1) 0%, hsla(242, 42%, 40%, 1) 100%);
+    border: none;
+    color: #ffffff;
+}
+.G
+{
+    color: #f44369;
+}
+#L{
+    color: #3e3b92;
+}
