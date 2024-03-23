@@ -59,6 +59,7 @@
 }
 .search:focus-within{
     box-shadow:0 0 4px #60d2de;
+    width: 200px;
 }
 .search-input
 {
