@@ -1,68 +1,78 @@
 * {
     margin: 0;
-    padding: 0; 
+    padding: 0;
     box-sizing: border-box;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight:200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
     font-style: normal;
 }
+
 /*background image for header and first section*/
-.header-hero
-{
-    background-image: url("Images/squid\ game\ hero\ image.jpeg");
+.hero-image {
     background-size: cover;
     background-position: center;
-    height: 100vh; /* 100% of the viewport height */
-    width: 100%; /* 100% of the viewport width */
-    color: white; /* Text color for content on top of the image */
+    width: 100%;
+    /* 100% of the viewport width */
+    color: white;
+    /* Text color for content on top of the image */
 }
+
 /*-------------------------first header----------------*/
-.first-header
-{
+.first-header {
     margin: 0;
     padding: 10px 0px;
 }
-.btn-outline-success
-{
+
+.btn-outline-success {
     background: #145469ee;
     border: none;
     color: #ffffff;
     border-radius: 30px;
     padding: 10px 25px;
     margin-left: 5px;
-    transition:box-shadow 0.25s;
+    transition: box-shadow 0.25s;
 }
-.btn-outline-success:focus-within
-{
-    box-shadow:0 0 4px #60d2de;
+
+.btn-outline-success:focus-within {
+    box-shadow: 0 0 4px #60d2de;
 
 }
-.btn-outline-success:hover
-{
+
+.btn-outline-success:hover {
     background-color: #9fdbdf;
     color: darkslategrey;
 
 
 }
 
-.search
-{   height: 45px;
+.search {
+    height: 45px;
     display: flex;
     align-items: center;
-    padding:7px 3px 7px 10px;
-    border-radius:28px;
+    padding: 7px 3px 7px 10px;
+    border-radius: 28px;
     background-color: #4f4f4f38;
-    transition:box-shadow 0.25s;
+    transition: box-shadow 0.25s;
 }
-.search:hover .search-input{
+
+.search:hover .search-input {
     width: 200px;
 }
-.search:focus-within{
-    box-shadow:0 0 4px #60d2de;
+
+.search:focus-within {
+    box-shadow: 0 0 4px #60d2de;
     width: 200px;
 }
-.search-input
+header
 {
+    background-color:#05080d ;
+}
+.nav1
+{
+    background-color:#05080d ;
+
+}
+.search-input {
     width: 0px;
     transition: 0.8s;
     font-size: 16px;
@@ -73,170 +83,185 @@
     border: none;
     background: transparent;
 }
+.search-input2 {
 
-.header-form
-{
+    transition: 0.8s;
+    font-size: 16px;
+    padding-left: 10px;
+    color: rgb(192, 189, 189);
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.header-form {
     display: flex;
     flex-direction: row;
 }
-.navbar{
+
+.navbar {
     padding: 0;
 }
-.navbar-brand
-{
+
+.navbar-brand {
     margin-left: 18px;
 }
+
 /*second header*/
 
-.nav__links li a
-{
+.nav__links {
     position: relative;
-    color: #af0d4b;
+    color: #7c8b9b;
     font-weight: 300;
     font-size: 1.25rem;
-    padding:0px 15px;
+    padding: 0px 15px;
+    text-decoration: none;
 }
-.nav__links >li> a::after
-{
+
+.nav__links::after {
     content: "";
     position: absolute;
-    background-color:#910726 ; 
+    background-color: #910726;
     height: 3px;
     width: 0;
     left: 0;
     bottom: -10px;
     transition: 0.3s;
 }
-.nav__links li a:hover
-{
-    color:#ecf6f7 ;
+
+.nav__links:hover {
+    color: #ecf6f7;
 }
 
-.nav__links li a:hover::after
-{
+.nav__links:hover::after {
     width: 100%;
 }
-.search-icon-a
-{
+
+.search-icon-a {
     width: 18px;
     height: 18px;
     cursor: pointer;
 }
-.search-icon
-{
+
+.search-icon {
     color: #af0d4b;
 }
-.cart
-{
+
+.cart {
     width: 18px;
     height: 18px;
     color: #af0d4b;
     cursor: pointer;
     margin-left: 15px;
     margin-top: 8px;
-    margin-right:15px ;
+    margin-right: 15px;
 }
+
 .justify-content-center {
     padding-left: 10px;
     justify-content: center !important;
     align-items: center;
 }
-.search-cart
-{
+
+.search-cart {
     display: flex;
     flex-direction: row;
 }
-.welcome-container
-{
+
+.welcome-container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
-.welcome{
-font-weight: 600;
-font-size: 60px;
+
+.welcome {
+    font-weight: 600;
+    font-size: 60px;
 }
 
-.website-logo
-{
+.website-logo {
     padding-top: 15px;
     width: 100px;
     height: 65px;
 }
 
 /*section 2*/
-.p-img
-{
-    height: 70vh;
-    display: flex;
-    justify-content: space-around;
+.img-p {
+    margin-top: -15%;
+    padding: 10% 10% 5% 10%;
+}
 
+.img-p .row {
+    margin-top: 10%;
 }
-.img1
-{
-    height: 90%;
-    border-radius: 3px;
-    outline: none;
+
+.how-img {
+    text-align: center;
 }
-.description
-{
+
+.how-img img {
+    width: 50%;
+}
+
+.description {
     display: inline-block;
     text-wrap: wrap;
-    font-weight: 500;
+    font-weight: 400;
     font-size: 30px;
+    color: #7c8b9b;
 }
-.description-div
-{
+
+.description-div {
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
     width: 40%;
     color: #7c8b9b;
 }
-.section2
-{
+
+.section2 {
     background-color: #05080d;
-   
+
 }
-.intro{
+
+.intro {
     text-align: center;
     padding-top: 10px;
     color: #7c8b9b;
-
     padding: 20px;
     margin: 0;
 }
 
-.section3-container
-{
-    width: 100%;
-    background-color: #05080d;
-}
-.container{
-    padding: 25px 10px;
-}
-.card
-{
+
+.card {
     border: none;
     transition: all 0.3s;
-    
 }
-.col
-{
-    width: 29.333333%;
-    margin-bottom: 16px;
-}
-.card:hover{
-    transform: scale(1.1);
-}
-.row{
 
-    justify-content: space-around;
+.card:hover {
+    transform: scale(1.06);
 }
+
 .card-text {
-    overflow: hidden; /* Hide overflow content */
-    white-space: nowrap; /* Prevent wrapping */
-    text-overflow: ellipsis; /* Display ellipsis for overflow content */
-    max-width: 100%; /* Ensure it doesn't overflow the container */
+    overflow: hidden;
+    /* Hide overflow content */
+    white-space: nowrap;
+    /* Prevent wrapping */
+    text-overflow: ellipsis;
+    /* Display ellipsis for overflow content */
+    max-width: 100%;
+    /* Ensure it doesn't overflow the container */
+}
+
+.footer-list {
+    text-decoration: none;
+}
+
+.footer-list>li>a {
+    text-decoration: none;
+}
+
+.section2 {
+    padding-top: 10px;
 }
